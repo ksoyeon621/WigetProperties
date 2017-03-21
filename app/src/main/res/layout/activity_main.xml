@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.widget_properties.MainActivity"
+    android:orientation="vertical"
+    >
+<!--wrap_content; 텍스트 크기에 맞춰 크기 설정-->
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/but_str1"
+       android:textSize="20sp"
+       android:background="#1b206d"
+       android:textColor="#ffcccc"
+       android:padding="15dp"
+       android:layout_marginLeft="100dp"
+       android:layout_marginTop="30dp"
+       android:visibility="visible"
+       android:clickable="true"
+       />
+    <!--button2 자리차지 있는 투명버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str2"
+        android:textSize="20sp"
+        android:background="#1b206d"
+        android:textColor="#ffcccc"
+        android:padding="15dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        android:clickable="true"
+        />
+    <!--button3 자리차지 없는 투명버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str2"
+        android:textSize="20sp"
+        android:background="#1b206d"
+        android:textColor="#ffcccc"
+        android:padding="15dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        android:clickable="true"
+        />
+</LinearLayout>

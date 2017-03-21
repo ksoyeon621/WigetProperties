@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widget_Properties</string>
+    <string name="but_str1">Click Button</string>
+    <string name="but_str2">I LOVE YOU</string>
+    <string name="but_str3">버튼 1</string>
+    <string name="but1">Text Size</string>
+    <string name="but2">Text Color</string>
+    <string name="but3">Text Typeface</string>
+    <string name="but4">Text Style</string>
+    <string name="but5">Text Single Line Text Single Line Text Single Line</string>
+</resources>
